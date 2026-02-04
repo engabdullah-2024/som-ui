@@ -1,0 +1,12 @@
+{
+    "name": "@somali-ui/config",
+    "version": "0.0.1",
+    "exports": {
+        "./tailwind.config": "./tailwind.config.js"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.4.0",
+        "tailwindcss-animate": "^1.0.7",
+        "@somali-ui/tokens": "workspace:*"
+    }
+}
