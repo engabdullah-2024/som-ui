@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      somali-ui:
+        specifier: workspace:^
+        version: link:packages/ui
     devDependencies:
       '@types/node':
         specifier: ^20.0.0
